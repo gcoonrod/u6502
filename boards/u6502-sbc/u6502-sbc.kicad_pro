@@ -55,12 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|146524001|85263001|dd0dd1fc-dd2f-4b74-bf9b-bad92e27b0b9|88438e3f-c3e1-4d74-8866-b3a1690f08dc",
+        "courtyards_overlap|151104001|85268001|dd0dd1fc-dd2f-4b74-bf9b-bad92e27b0b9|0eb4fd32-5b0a-4828-b308-2c4213457322",
+        "courtyards_overlap|160806001|110750001|85b0925d-caee-4047-96d6-44907c671453|cf6cec7e-8d8d-4c69-825b-89f6372a1239",
+        "courtyards_overlap|161323999|85268001|c9a17797-2900-480a-8f2e-caa665e0c586|0eb4fd32-5b0a-4828-b308-2c4213457322",
+        "courtyards_overlap|163772001|110750001|85b0925d-caee-4047-96d6-44907c671453|1f0cdd79-07f1-4dc0-916a-6bcdf450a7df",
+        "courtyards_overlap|185834999|47200001|24beb46a-c79f-465a-ac0b-8f6f063d5877|0d4cb1b5-0571-453d-acf1-9855d62a647a",
+        "items_not_allowed|105260000|77256000|0558182a-6689-442b-acf3-492f13576c7f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -204,7 +212,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|533400|406400|9fefbd16-3482-4290-be84-f170a4768d11|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -419,14 +429,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "JLCPCB_100mm.kicad_pro",
+    "filename": "u6502-sbc.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -437,8 +447,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.152,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
@@ -454,7 +464,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "u6502-sbc.dsn",
       "step": "",
       "vrml": ""
     },
