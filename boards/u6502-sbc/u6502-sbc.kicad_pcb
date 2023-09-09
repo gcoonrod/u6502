@@ -7502,7 +7502,7 @@
     (stroke (width 0.15) (type default)) (fill none) (layer "B.SilkS") (tstamp 8e276d63-05b9-4cba-8118-75a2ccdb37ec))
   (gr_line (start 185.42 64.77) (end 185.42 67.31)
     (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp b41c25e1-0ded-4f1f-b69a-46ea00602a1b))
-  (gr_rect (start 185.42 50.8) (end 185.42 49.53)
+  (gr_rect (start 185.42 49.53) (end 185.42 50.8)
     (stroke (width 0.15) (type default)) (fill none) (layer "B.SilkS") (tstamp cf2fb5b9-1a82-47b5-8ffa-7fa7831ac8ce))
   (gr_rect (start 185.42 54.61) (end 190.5 54.61)
     (stroke (width 0.15) (type default)) (fill none) (layer "B.SilkS") (tstamp cf790ee6-71be-4e7a-af3a-905203002256))
